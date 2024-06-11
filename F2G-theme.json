@@ -124,55 +124,55 @@
     },
     "size": {
       "0": {
-        "value": "0.25rem",
+        "value": "2px",
         "type": "dimension",
         "parent": "global/global-mode",
         "description": ""
       },
       "1": {
-        "value": "0.5rem",
+        "value": "4px",
         "type": "dimension",
         "parent": "global/global-mode",
         "description": ""
       },
       "2": {
-        "value": "1rem",
+        "value": "8px",
         "type": "dimension",
         "parent": "global/global-mode",
         "description": ""
       },
       "3": {
-        "value": "1.5rem",
+        "value": "12px",
         "type": "dimension",
         "parent": "global/global-mode",
         "description": ""
       },
       "4": {
-        "value": "2rem",
+        "value": "14px",
         "type": "dimension",
         "parent": "global/global-mode",
         "description": ""
       },
       "5": {
-        "value": "2.5rem",
+        "value": "16px",
         "type": "dimension",
         "parent": "global/global-mode",
         "description": ""
       },
       "6": {
-        "value": "3rem",
+        "value": "24px",
         "type": "dimension",
         "parent": "global/global-mode",
         "description": ""
       },
       "7": {
-        "value": "4rem",
+        "value": "32px",
         "type": "dimension",
         "parent": "global/global-mode",
         "description": ""
       },
       "8": {
-        "value": "5rem",
+        "value": "40px",
         "type": "dimension",
         "parent": "global/global-mode",
         "description": ""

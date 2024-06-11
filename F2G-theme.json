@@ -162,7 +162,7 @@
     },
     "States": {
       "state-default": {
-        "value": "{Colour.grey-3}",
+        "value": "{#444444}",
         "type": "color",
         "parent": "Components/light",
         "description": ""

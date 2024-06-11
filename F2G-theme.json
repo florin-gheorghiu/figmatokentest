@@ -1,190 +1,377 @@
 {
-  "Components/light": {
-    "Input": {
-      "Stroke": {
-        "input-stroke-default": {
-          "value": "{States.state-default}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-stroke-disabled": {
-          "value": "{States.state-disable}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-stroke-error": {
-          "value": "{States.state-error}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-stroke-success": {
-          "value": "{States.state-success}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        }
-      },
-      "Placeholder": {
-        "input-placeholder": {
-          "value": "{States.state-disable}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-placeholder-fontfamily": {
-          "value": "Inter",
-          "type": "text",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-placeholder-fontweight": {
-          "value": "medium",
-          "type": "text",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-placeholder-size": {
-          "value": "{Size.size-4}",
-          "type": "dimension",
-          "parent": "Components/light",
-          "description": ""
-        }
-      },
-      "Message": {
-        "input-message-error-color": {
-          "value": "{States.state-error}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-message-default-color": {
-          "value": "{States.state-default}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-message-success-color": {
-          "value": "{States.state-success}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-message-disable-color": {
-          "value": "{States.state-disable}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-message-error-fontfamily": {
-          "value": "Inter",
-          "type": "text",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-message-fontweight": {
-          "value": "bold",
-          "type": "text",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-message-error-size": {
-          "value": "{Size.size-3}",
-          "type": "dimension",
-          "parent": "Components/light",
-          "description": ""
-        }
-      },
-      "Label": {
-        "input-label-color-default": {
-          "value": "{States.state-default}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-label-color-disable": {
-          "value": "{States.state-disable}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-label-color-success": {
-          "value": "{States.state-success}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-label-color-error": {
-          "value": "{States.state-error}",
-          "type": "color",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-label-fontfamily": {
-          "value": "Inter",
-          "type": "text",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-label-fontweight": {
-          "value": "semi bold",
-          "type": "text",
-          "parent": "Components/light",
-          "description": ""
-        },
-        "input-label-size": {
-          "value": "{Size.size-4}",
-          "type": "dimension",
-          "parent": "Components/light",
-          "description": ""
-        }
-      },
-      "input-bgrd-colour-default": {
-        "value": "{Colour.white}",
+  "global/global-mode": {
+    "colour": {
+      "grey-1": {
+        "value": "#c0c0c0",
         "type": "color",
-        "parent": "Components/light",
+        "parent": "global/global-mode",
         "description": ""
       },
-      "input-bgrd-colour-disable": {
-        "value": "{Colour.grey-0}",
+      "grey-2": {
+        "value": "#868686",
         "type": "color",
-        "parent": "Components/light",
+        "parent": "global/global-mode",
         "description": ""
       },
-      "input-radius": {
-        "value": "{Dimensions.Radius.radius-1}",
-        "type": "dimension",
-        "parent": "Components/light",
+      "red-1": {
+        "value": "#d60000",
+        "type": "color",
+        "parent": "global/global-mode",
+        "description": ""
+      },
+      "green-1": {
+        "value": "#00955c",
+        "type": "color",
+        "parent": "global/global-mode",
+        "description": ""
+      },
+      "grey-3": {
+        "value": "#444444",
+        "type": "color",
+        "parent": "global/global-mode",
+        "description": ""
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "global/global-mode",
+        "description": ""
+      },
+      "grey-0": {
+        "value": "#fbfbfb",
+        "type": "color",
+        "parent": "global/global-mode",
         "description": ""
       }
     },
-    "States": {
-      "state-default": {
-        "value": "{#444444}",
-        "type": "color",
-        "parent": "Components/light",
+    "dimension": {
+      "radius": {
+        "1": {
+          "value": "{size.1}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        },
+        "2": {
+          "value": "{size.2}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        },
+        "radius-3": {
+          "value": "{size.3}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        }
+      },
+      "spacing": {
+        "1": {
+          "value": "{size.1}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        },
+        "2": {
+          "value": "{size.2}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        },
+        "3": {
+          "value": "{size.3}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        },
+        "4": {
+          "value": "{size.4}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        },
+        "5": {
+          "value": "{size.5}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        },
+        "6": {
+          "value": "{size.6}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        },
+        "7": {
+          "value": "{size.7}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        },
+        "8": {
+          "value": "{size.8}",
+          "type": "dimension",
+          "parent": "global/global-mode",
+          "description": ""
+        }
+      },
+      "stroke": {
+        "value": "0.125rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
+        "description": ""
+      }
+    },
+    "size": {
+      "0": {
+        "value": "0.25rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
         "description": ""
       },
-      "state-disable": {
-        "value": "{Colour.grey-1}",
-        "type": "color",
-        "parent": "Components/light",
+      "1": {
+        "value": "0.5rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
         "description": ""
       },
-      "state-success": {
-        "value": "{Colour.green-1}",
-        "type": "color",
-        "parent": "Components/light",
+      "2": {
+        "value": "1rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
         "description": ""
       },
-      "state-error": {
-        "value": "{Colour.red-1}",
-        "type": "color",
-        "parent": "Components/light",
+      "3": {
+        "value": "1.5rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
+        "description": ""
+      },
+      "4": {
+        "value": "2rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
+        "description": ""
+      },
+      "5": {
+        "value": "2.5rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
+        "description": ""
+      },
+      "6": {
+        "value": "3rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
+        "description": ""
+      },
+      "7": {
+        "value": "4rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
+        "description": ""
+      },
+      "8": {
+        "value": "5rem",
+        "type": "dimension",
+        "parent": "global/global-mode",
         "description": ""
       }
     }
+  },
+  "component/light": {
+    "input": {
+      "stroke": {
+        "stroke-default": {
+          "value": "{states.default}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "stroke-disabled": {
+          "value": "{states.disable}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "stroke-error": {
+          "value": "{states.error}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "stroke-success": {
+          "value": "{states.success}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        }
+      },
+      "placeholder": {
+        "input-placeholder": {
+          "value": "{states.disable}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "placeholder-fontfamily": {
+          "value": "Inter",
+          "type": "text",
+          "parent": "component/light",
+          "description": ""
+        },
+        "placeholder-fontweight": {
+          "value": "medium",
+          "type": "text",
+          "parent": "component/light",
+          "description": ""
+        },
+        "placeholder-size": {
+          "value": "{size.4}",
+          "type": "dimension",
+          "parent": "component/light",
+          "description": ""
+        }
+      },
+      "message": {
+        "message-error-color": {
+          "value": "{states.error}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "message-default-color": {
+          "value": "{states.default}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "message-success-color": {
+          "value": "{states.success}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "message-disable-color": {
+          "value": "{states.disable}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "message-error-fontfamily": {
+          "value": "Inter",
+          "type": "text",
+          "parent": "component/light",
+          "description": ""
+        },
+        "message-fontweight": {
+          "value": "bold",
+          "type": "text",
+          "parent": "component/light",
+          "description": ""
+        },
+        "message-error-size": {
+          "value": "{size.3}",
+          "type": "dimension",
+          "parent": "component/light",
+          "description": ""
+        }
+      },
+      "label": {
+        "label-color-default": {
+          "value": "{states.default}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "label-color-disable": {
+          "value": "{states.disable}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "label-color-success": {
+          "value": "{states.success}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "label-color-error": {
+          "value": "{states.error}",
+          "type": "color",
+          "parent": "component/light",
+          "description": ""
+        },
+        "label-fontfamily": {
+          "value": "Inter",
+          "type": "text",
+          "parent": "component/light",
+          "description": ""
+        },
+        "label-fontweight": {
+          "value": "semi bold",
+          "type": "text",
+          "parent": "component/light",
+          "description": ""
+        },
+        "label-size": {
+          "value": "{size.4}",
+          "type": "dimension",
+          "parent": "component/light",
+          "description": ""
+        }
+      },
+      "bgrd-colour-default": {
+        "value": "{colour.white}",
+        "type": "color",
+        "parent": "component/light",
+        "description": ""
+      },
+      "bgrd-colour-disable": {
+        "value": "{colour.grey-0}",
+        "type": "color",
+        "parent": "component/light",
+        "description": ""
+      },
+      "radius": {
+        "value": "{dimension.radius.1}",
+        "type": "dimension",
+        "parent": "component/light",
+        "description": ""
+      }
+    },
+    "states": {
+      "default": {
+        "value": "{colour.grey-3}",
+        "type": "color",
+        "parent": "component/light",
+        "description": ""
+      },
+      "disable": {
+        "value": "{colour.grey-1}",
+        "type": "color",
+        "parent": "component/light",
+        "description": ""
+      },
+      "success": {
+        "value": "{colour.green-1}",
+        "type": "color",
+        "parent": "component/light",
+        "description": ""
+      },
+      "error": {
+        "value": "{colour.red-1}",
+        "type": "color",
+        "parent": "component/light",
+        "description": ""
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "global/global-mode",
+      "component/light"
+    ]
   }
 }

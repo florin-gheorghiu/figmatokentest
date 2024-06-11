@@ -1,207 +1,27 @@
 {
-  "Global/Mode 1": {
-    "Colour": {
-      "grey-1": {
-        "value": "#c0c0c0",
-        "type": "color",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "grey-2": {
-        "value": "#868686",
-        "type": "color",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "red-1": {
-        "value": "#d60000",
-        "type": "color",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "green-1": {
-        "value": "#00955c",
-        "type": "color",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "grey-3": {
-        "value": "#444444",
-        "type": "color",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "white": {
-        "value": "#ffffff",
-        "type": "color",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "grey-0": {
-        "value": "#fbfbfb",
-        "type": "color",
-        "parent": "Global/Mode 1",
-        "description": ""
-      }
-    },
-    "Dimensions": {
-      "Radius": {
-        "radius-1": {
-          "value": "{Size.size-1}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        },
-        "radius-2": {
-          "value": "{Size.size-2}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        },
-        "radius-3": {
-          "value": "{Size.size-3}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        }
-      },
-      "Spacing": {
-        "space-1": {
-          "value": "{Size.size-1}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        },
-        "space-2": {
-          "value": "{Size.size-2}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        },
-        "space-3": {
-          "value": "{Size.size-3}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        },
-        "space-4": {
-          "value": "{Size.size-4}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        },
-        "space-5": {
-          "value": "{Size.size-5}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        },
-        "space-6": {
-          "value": "{Size.size-6}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        },
-        "space-7": {
-          "value": "{Size.size-7}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        },
-        "space-8": {
-          "value": "{Size.size-8}",
-          "type": "dimension",
-          "parent": "Global/Mode 1",
-          "description": ""
-        }
-      },
-      "stroke": {
-        "value": "0.125rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      }
-    },
-    "Size": {
-      "size-1": {
-        "value": "0.5rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "size-2": {
-        "value": "1rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "size-3": {
-        "value": "1.5rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "size-4": {
-        "value": "2rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "size-5": {
-        "value": "2.5rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "size-6": {
-        "value": "3rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "size-7": {
-        "value": "4rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "size-8": {
-        "value": "5rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      },
-      "size-0": {
-        "value": "0.25rem",
-        "type": "dimension",
-        "parent": "Global/Mode 1",
-        "description": ""
-      }
-    }
-  },
   "Components/light": {
     "Input": {
       "Stroke": {
         "input-stroke-default": {
-          "value": "{state-default}",
+          "value": "{States.state-default}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-stroke-disabled": {
-          "value": "{state-disable}",
+          "value": "{States.state-disable}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-stroke-error": {
-          "value": "{state-error}",
+          "value": "{States.state-error}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-stroke-success": {
-          "value": "{state-success}",
+          "value": "{States.state-success}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
@@ -209,7 +29,7 @@
       },
       "Placeholder": {
         "input-placeholder": {
-          "value": "{state-disable}",
+          "value": "{States.state-disable}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
@@ -235,25 +55,25 @@
       },
       "Message": {
         "input-message-error-color": {
-          "value": "{state-error}",
+          "value": "{States.state-error}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-message-default-color": {
-          "value": "{state-default}",
+          "value": "{States.state-default}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-message-success-color": {
-          "value": "{state-success}",
+          "value": "{States.state-success}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-message-disable-color": {
-          "value": "{state-disable}",
+          "value": "{States.state-disable}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
@@ -279,25 +99,25 @@
       },
       "Label": {
         "input-label-color-default": {
-          "value": "{state-default}",
+          "value": "{States.state-default}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-label-color-disable": {
-          "value": "{state-disable}",
+          "value": "{States.state-disable}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-label-color-success": {
-          "value": "{state-success}",
+          "value": "{States.state-success}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-label-color-error": {
-          "value": "{state-error}",
+          "value": "{States.state-error}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
@@ -366,12 +186,5 @@
         "description": ""
       }
     }
-  },
-  "$themes": [],
-  "$metadata": {
-    "tokenSetOrder": [
-      "Global/Mode 1",
-      "Components/light"
-    ]
   }
 }

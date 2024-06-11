@@ -183,25 +183,25 @@
     "Input": {
       "Stroke": {
         "input-stroke-default": {
-          "value": "{States.state-default}",
+          "value": "{state-default}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-stroke-disabled": {
-          "value": "{States.state-disable}",
+          "value": "{state-disable}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-stroke-error": {
-          "value": "{States.state-error}",
+          "value": "{state-error}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-stroke-success": {
-          "value": "{States.state-success}",
+          "value": "{state-success}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
@@ -209,7 +209,7 @@
       },
       "Placeholder": {
         "input-placeholder": {
-          "value": "{States.state-disable}",
+          "value": "{state-disable}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
@@ -235,25 +235,25 @@
       },
       "Message": {
         "input-message-error-color": {
-          "value": "{States.state-error}",
+          "value": "{state-error}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-message-default-color": {
-          "value": "{States.state-default}",
+          "value": "{state-default}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-message-success-color": {
-          "value": "{States.state-success}",
+          "value": "{state-success}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-message-disable-color": {
-          "value": "{States.state-disable}",
+          "value": "{state-disable}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
@@ -279,25 +279,25 @@
       },
       "Label": {
         "input-label-color-default": {
-          "value": "{States.state-default}",
+          "value": "{state-default}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-label-color-disable": {
-          "value": "{States.state-disable}",
+          "value": "{state-disable}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-label-color-success": {
-          "value": "{States.state-success}",
+          "value": "{state-success}",
           "type": "color",
           "parent": "Components/light",
           "description": ""
         },
         "input-label-color-error": {
-          "value": "{States.state-error}",
+          "value": "{state-error}",
           "type": "color",
           "parent": "Components/light",
           "description": ""

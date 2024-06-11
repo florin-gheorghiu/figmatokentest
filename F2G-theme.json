@@ -1,433 +1,377 @@
 {
-    "description": "TYPE: CUSTOM\nMaterial Theme Builder export 2024-06-11 02:38:42",
-    "seed": "#007C15",
-    "coreColors": {
-        "primary": "#007C15",
-        "secondary": "#41583C",
-        "neutral": "#D2D2CC"
+  "Global/Mode 1": {
+    "Colour": {
+      "grey-1": {
+        "value": "#c0c0c0",
+        "type": "color",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "grey-2": {
+        "value": "#868686",
+        "type": "color",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "red-1": {
+        "value": "#d60000",
+        "type": "color",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "green-1": {
+        "value": "#00955c",
+        "type": "color",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "grey-3": {
+        "value": "#444444",
+        "type": "color",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "white": {
+        "value": "#ffffff",
+        "type": "color",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "grey-0": {
+        "value": "#fbfbfb",
+        "type": "color",
+        "parent": "Global/Mode 1",
+        "description": ""
+      }
     },
-    "extendedColors": [
-        {
-            "name": "Success",
-            "color": "#00955C",
-            "description": "",
-            "harmonized": false
+    "Dimensions": {
+      "Radius": {
+        "radius-1": {
+          "value": "{Size.size-1}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
         },
-        {
-            "name": "Disable",
-            "color": "#C0C0C0",
-            "description": "",
-            "harmonized": false
+        "radius-2": {
+          "value": "{Size.size-2}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
+        },
+        "radius-3": {
+          "value": "{Size.size-3}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
         }
-    ],
-    "schemes": {
-        "light": {
-            "primary": "#3D6838",
-            "surfaceTint": "#3D6838",
-            "onPrimary": "#FFFFFF",
-            "primaryContainer": "#BEF0B2",
-            "onPrimaryContainer": "#002202",
-            "secondary": "#3D6838",
-            "onSecondary": "#FFFFFF",
-            "secondaryContainer": "#BEF0B2",
-            "onSecondaryContainer": "#002202",
-            "tertiary": "#386569",
-            "onTertiary": "#FFFFFF",
-            "tertiaryContainer": "#BCEBEF",
-            "onTertiaryContainer": "#002022",
-            "error": "#BA1A1A",
-            "onError": "#FFFFFF",
-            "errorContainer": "#FFDAD6",
-            "onErrorContainer": "#410002",
-            "background": "#F7FBF1",
-            "onBackground": "#191D17",
-            "surface": "#F8FAF0",
-            "onSurface": "#191D17",
-            "surfaceVariant": "#DEE4D8",
-            "onSurfaceVariant": "#42493F",
-            "outline": "#73796E",
-            "outlineVariant": "#C2C8BC",
-            "shadow": "#000000",
-            "scrim": "#000000",
-            "inverseSurface": "#2E312B",
-            "inverseOnSurface": "#EFF2E7",
-            "inversePrimary": "#A3D398",
-            "primaryFixed": "#BEF0B2",
-            "onPrimaryFixed": "#002202",
-            "primaryFixedDim": "#A3D398",
-            "onPrimaryFixedVariant": "#265022",
-            "secondaryFixed": "#BEF0B2",
-            "onSecondaryFixed": "#002202",
-            "secondaryFixedDim": "#A3D398",
-            "onSecondaryFixedVariant": "#265022",
-            "tertiaryFixed": "#BCEBEF",
-            "onTertiaryFixed": "#002022",
-            "tertiaryFixedDim": "#A0CFD3",
-            "onTertiaryFixedVariant": "#1E4D51",
-            "surfaceDim": "#D9DBD1",
-            "surfaceBright": "#F8FAF0",
-            "surfaceContainerLowest": "#FFFFFF",
-            "surfaceContainerLow": "#F2F5EA",
-            "surfaceContainer": "#EDEFE5",
-            "surfaceContainerHigh": "#E7E9DF",
-            "surfaceContainerHighest": "#E1E4D9"
+      },
+      "Spacing": {
+        "space-1": {
+          "value": "{Size.size-1}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
         },
-        "light-medium-contrast": {
-            "primary": "#224C1E",
-            "surfaceTint": "#3D6838",
-            "onPrimary": "#FFFFFF",
-            "primaryContainer": "#537F4C",
-            "onPrimaryContainer": "#FFFFFF",
-            "secondary": "#224C1F",
-            "onSecondary": "#FFFFFF",
-            "secondaryContainer": "#537F4C",
-            "onSecondaryContainer": "#FFFFFF",
-            "tertiary": "#1A494D",
-            "onTertiary": "#FFFFFF",
-            "tertiaryContainer": "#4F7C80",
-            "onTertiaryContainer": "#FFFFFF",
-            "error": "#8C0009",
-            "onError": "#FFFFFF",
-            "errorContainer": "#DA342E",
-            "onErrorContainer": "#FFFFFF",
-            "background": "#F7FBF1",
-            "onBackground": "#191D17",
-            "surface": "#F8FAF0",
-            "onSurface": "#191D17",
-            "surfaceVariant": "#DEE4D8",
-            "onSurfaceVariant": "#3E453C",
-            "outline": "#5B6157",
-            "outlineVariant": "#767D72",
-            "shadow": "#000000",
-            "scrim": "#000000",
-            "inverseSurface": "#2E312B",
-            "inverseOnSurface": "#EFF2E7",
-            "inversePrimary": "#A3D398",
-            "primaryFixed": "#537F4C",
-            "onPrimaryFixed": "#FFFFFF",
-            "primaryFixedDim": "#3B6635",
-            "onPrimaryFixedVariant": "#FFFFFF",
-            "secondaryFixed": "#537F4C",
-            "onSecondaryFixed": "#FFFFFF",
-            "secondaryFixedDim": "#3B6636",
-            "onSecondaryFixedVariant": "#FFFFFF",
-            "tertiaryFixed": "#4F7C80",
-            "onTertiaryFixed": "#FFFFFF",
-            "tertiaryFixedDim": "#366367",
-            "onTertiaryFixedVariant": "#FFFFFF",
-            "surfaceDim": "#D9DBD1",
-            "surfaceBright": "#F8FAF0",
-            "surfaceContainerLowest": "#FFFFFF",
-            "surfaceContainerLow": "#F2F5EA",
-            "surfaceContainer": "#EDEFE5",
-            "surfaceContainerHigh": "#E7E9DF",
-            "surfaceContainerHighest": "#E1E4D9"
+        "space-2": {
+          "value": "{Size.size-2}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
         },
-        "light-high-contrast": {
-            "primary": "#002903",
-            "surfaceTint": "#3D6838",
-            "onPrimary": "#FFFFFF",
-            "primaryContainer": "#224C1E",
-            "onPrimaryContainer": "#FFFFFF",
-            "secondary": "#002903",
-            "onSecondary": "#FFFFFF",
-            "secondaryContainer": "#224C1F",
-            "onSecondaryContainer": "#FFFFFF",
-            "tertiary": "#00272A",
-            "onTertiary": "#FFFFFF",
-            "tertiaryContainer": "#1A494D",
-            "onTertiaryContainer": "#FFFFFF",
-            "error": "#4E0002",
-            "onError": "#FFFFFF",
-            "errorContainer": "#8C0009",
-            "onErrorContainer": "#FFFFFF",
-            "background": "#F7FBF1",
-            "onBackground": "#191D17",
-            "surface": "#F8FAF0",
-            "onSurface": "#000000",
-            "surfaceVariant": "#DEE4D8",
-            "onSurfaceVariant": "#20261E",
-            "outline": "#3E453C",
-            "outlineVariant": "#3E453C",
-            "shadow": "#000000",
-            "scrim": "#000000",
-            "inverseSurface": "#2E312B",
-            "inverseOnSurface": "#FFFFFF",
-            "inversePrimary": "#C7F9BB",
-            "primaryFixed": "#224C1E",
-            "onPrimaryFixed": "#FFFFFF",
-            "primaryFixedDim": "#09350A",
-            "onPrimaryFixedVariant": "#FFFFFF",
-            "secondaryFixed": "#224C1F",
-            "onSecondaryFixed": "#FFFFFF",
-            "secondaryFixedDim": "#09350A",
-            "onSecondaryFixedVariant": "#FFFFFF",
-            "tertiaryFixed": "#1A494D",
-            "onTertiaryFixed": "#FFFFFF",
-            "tertiaryFixedDim": "#003236",
-            "onTertiaryFixedVariant": "#FFFFFF",
-            "surfaceDim": "#D9DBD1",
-            "surfaceBright": "#F8FAF0",
-            "surfaceContainerLowest": "#FFFFFF",
-            "surfaceContainerLow": "#F2F5EA",
-            "surfaceContainer": "#EDEFE5",
-            "surfaceContainerHigh": "#E7E9DF",
-            "surfaceContainerHighest": "#E1E4D9"
+        "space-3": {
+          "value": "{Size.size-3}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
         },
-        "dark": {
-            "primary": "#A3D398",
-            "surfaceTint": "#A3D398",
-            "onPrimary": "#0E380D",
-            "primaryContainer": "#265022",
-            "onPrimaryContainer": "#BEF0B2",
-            "secondary": "#A3D398",
-            "onSecondary": "#0D380D",
-            "secondaryContainer": "#265022",
-            "onSecondaryContainer": "#BEF0B2",
-            "tertiary": "#A0CFD3",
-            "onTertiary": "#00363A",
-            "tertiaryContainer": "#1E4D51",
-            "onTertiaryContainer": "#BCEBEF",
-            "error": "#FFB4AB",
-            "onError": "#690005",
-            "errorContainer": "#93000A",
-            "onErrorContainer": "#FFDAD6",
-            "background": "#11140F",
-            "onBackground": "#E0E4DA",
-            "surface": "#11140F",
-            "onSurface": "#E1E4D9",
-            "surfaceVariant": "#42493F",
-            "onSurfaceVariant": "#C2C8BC",
-            "outline": "#8C9388",
-            "outlineVariant": "#42493F",
-            "shadow": "#000000",
-            "scrim": "#000000",
-            "inverseSurface": "#E1E4D9",
-            "inverseOnSurface": "#2E312B",
-            "inversePrimary": "#3D6838",
-            "primaryFixed": "#BEF0B2",
-            "onPrimaryFixed": "#002202",
-            "primaryFixedDim": "#A3D398",
-            "onPrimaryFixedVariant": "#265022",
-            "secondaryFixed": "#BEF0B2",
-            "onSecondaryFixed": "#002202",
-            "secondaryFixedDim": "#A3D398",
-            "onSecondaryFixedVariant": "#265022",
-            "tertiaryFixed": "#BCEBEF",
-            "onTertiaryFixed": "#002022",
-            "tertiaryFixedDim": "#A0CFD3",
-            "onTertiaryFixedVariant": "#1E4D51",
-            "surfaceDim": "#11140F",
-            "surfaceBright": "#373A33",
-            "surfaceContainerLowest": "#0C0F0A",
-            "surfaceContainerLow": "#191D17",
-            "surfaceContainer": "#1D211A",
-            "surfaceContainerHigh": "#282B24",
-            "surfaceContainerHighest": "#32362F"
+        "space-4": {
+          "value": "{Size.size-4}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
         },
-        "dark-medium-contrast": {
-            "primary": "#A7D79C",
-            "surfaceTint": "#A3D398",
-            "onPrimary": "#001C01",
-            "primaryContainer": "#6F9C66",
-            "onPrimaryContainer": "#000000",
-            "secondary": "#A7D79C",
-            "onSecondary": "#001C01",
-            "secondaryContainer": "#6E9C66",
-            "onSecondaryContainer": "#000000",
-            "tertiary": "#A4D3D7",
-            "onTertiary": "#001A1C",
-            "tertiaryContainer": "#6B989D",
-            "onTertiaryContainer": "#000000",
-            "error": "#FFBAB1",
-            "onError": "#370001",
-            "errorContainer": "#FF5449",
-            "onErrorContainer": "#000000",
-            "background": "#11140F",
-            "onBackground": "#E0E4DA",
-            "surface": "#11140F",
-            "onSurface": "#F9FCF1",
-            "surfaceVariant": "#42493F",
-            "onSurfaceVariant": "#C7CDC1",
-            "outline": "#9FA599",
-            "outlineVariant": "#7F857A",
-            "shadow": "#000000",
-            "scrim": "#000000",
-            "inverseSurface": "#E1E4D9",
-            "inverseOnSurface": "#282B25",
-            "inversePrimary": "#275123",
-            "primaryFixed": "#BEF0B2",
-            "onPrimaryFixed": "#001601",
-            "primaryFixedDim": "#A3D398",
-            "onPrimaryFixedVariant": "#143E13",
-            "secondaryFixed": "#BEF0B2",
-            "onSecondaryFixed": "#001601",
-            "secondaryFixedDim": "#A3D398",
-            "onSecondaryFixedVariant": "#143E13",
-            "tertiaryFixed": "#BCEBEF",
-            "onTertiaryFixed": "#001416",
-            "tertiaryFixedDim": "#A0CFD3",
-            "onTertiaryFixedVariant": "#073C40",
-            "surfaceDim": "#11140F",
-            "surfaceBright": "#373A33",
-            "surfaceContainerLowest": "#0C0F0A",
-            "surfaceContainerLow": "#191D17",
-            "surfaceContainer": "#1D211A",
-            "surfaceContainerHigh": "#282B24",
-            "surfaceContainerHighest": "#32362F"
+        "space-5": {
+          "value": "{Size.size-5}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
         },
-        "dark-high-contrast": {
-            "primary": "#F1FFE9",
-            "surfaceTint": "#A3D398",
-            "onPrimary": "#000000",
-            "primaryContainer": "#A7D79C",
-            "onPrimaryContainer": "#000000",
-            "secondary": "#F1FFE9",
-            "onSecondary": "#000000",
-            "secondaryContainer": "#A7D79C",
-            "onSecondaryContainer": "#000000",
-            "tertiary": "#EEFEFF",
-            "onTertiary": "#000000",
-            "tertiaryContainer": "#A4D3D7",
-            "onTertiaryContainer": "#000000",
-            "error": "#FFF9F9",
-            "onError": "#000000",
-            "errorContainer": "#FFBAB1",
-            "onErrorContainer": "#000000",
-            "background": "#11140F",
-            "onBackground": "#E0E4DA",
-            "surface": "#11140F",
-            "onSurface": "#FFFFFF",
-            "surfaceVariant": "#42493F",
-            "onSurfaceVariant": "#F7FDF0",
-            "outline": "#C7CDC1",
-            "outlineVariant": "#C7CDC1",
-            "shadow": "#000000",
-            "scrim": "#000000",
-            "inverseSurface": "#E1E4D9",
-            "inverseOnSurface": "#000000",
-            "inversePrimary": "#063207",
-            "primaryFixed": "#C2F4B6",
-            "onPrimaryFixed": "#000000",
-            "primaryFixedDim": "#A7D79C",
-            "onPrimaryFixedVariant": "#001C01",
-            "secondaryFixed": "#C2F4B6",
-            "onSecondaryFixed": "#000000",
-            "secondaryFixedDim": "#A7D79C",
-            "onSecondaryFixedVariant": "#001C01",
-            "tertiaryFixed": "#C0EFF4",
-            "onTertiaryFixed": "#000000",
-            "tertiaryFixedDim": "#A4D3D7",
-            "onTertiaryFixedVariant": "#001A1C",
-            "surfaceDim": "#11140F",
-            "surfaceBright": "#373A33",
-            "surfaceContainerLowest": "#0C0F0A",
-            "surfaceContainerLow": "#191D17",
-            "surfaceContainer": "#1D211A",
-            "surfaceContainerHigh": "#282B24",
-            "surfaceContainerHighest": "#32362F"
+        "space-6": {
+          "value": "{Size.size-6}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
+        },
+        "space-7": {
+          "value": "{Size.size-7}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
+        },
+        "space-8": {
+          "value": "{Size.size-8}",
+          "type": "dimension",
+          "parent": "Global/Mode 1",
+          "description": ""
         }
+      },
+      "stroke": {
+        "value": "0.125rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      }
     },
-    "palettes": {
-        "primary": {
-            "0": "#000000",
-            "5": "#001501",
-            "10": "#002202",
-            "15": "#002D03",
-            "20": "#003A05",
-            "25": "#004607",
-            "30": "#00530A",
-            "35": "#00610E",
-            "40": "#006E11",
-            "50": "#1C8A23",
-            "60": "#3DA53B",
-            "70": "#59C153",
-            "80": "#75DD6B",
-            "90": "#B9F1AC",
-            "95": "#C9FFBC",
-            "98": "#ECFFE3",
-            "99": "#F7FFEF",
-            "100": "#FFFFFF"
-        },
-        "secondary": {
-            "0": "#000000",
-            "5": "#021502",
-            "10": "#0B2009",
-            "15": "#152B13",
-            "20": "#20361D",
-            "25": "#2B4127",
-            "30": "#364C31",
-            "35": "#41583C",
-            "40": "#4D6548",
-            "50": "#657E5F",
-            "60": "#7E9877",
-            "70": "#99B290",
-            "80": "#B3CEAB",
-            "90": "#CFEAC5",
-            "95": "#DDF9D3",
-            "98": "#ECFFE3",
-            "99": "#F7FFEF",
-            "100": "#FFFFFF"
-        },
-        "tertiary": {
-            "0": "#000000",
-            "5": "#001416",
-            "10": "#002022",
-            "15": "#002B2E",
-            "20": "#00363A",
-            "25": "#004347",
-            "30": "#004F54",
-            "35": "#005C62",
-            "40": "#12686F",
-            "50": "#368288",
-            "60": "#529CA2",
-            "70": "#6EB7BD",
-            "80": "#89D2D9",
-            "90": "#A5EFF6",
-            "95": "#C6FAFF",
-            "98": "#E9FDFF",
-            "99": "#F4FEFF",
-            "100": "#FFFFFF"
-        },
-        "neutral": {
-            "0": "#000000",
-            "5": "#111111",
-            "10": "#1C1B1B",
-            "15": "#262625",
-            "20": "#313030",
-            "25": "#3C3B3B",
-            "30": "#484646",
-            "35": "#535251",
-            "40": "#605E5D",
-            "50": "#797776",
-            "60": "#92908F",
-            "70": "#ADABAA",
-            "80": "#C9C6C5",
-            "90": "#E5E2E1",
-            "95": "#F4F0EF",
-            "98": "#FCF8F7",
-            "99": "#F7FFED",
-            "100": "#FFFFFF"
-        },
-        "neutral-variant": {
-            "0": "#000000",
-            "5": "#0D120B",
-            "10": "#171D16",
-            "15": "#21271F",
-            "20": "#2C322A",
-            "25": "#373D34",
-            "30": "#42493F",
-            "35": "#4E544B",
-            "40": "#5A6056",
-            "50": "#73796E",
-            "60": "#8C9388",
-            "70": "#A7ADA2",
-            "80": "#C2C8BC",
-            "90": "#DEE4D8",
-            "95": "#EDF3E6",
-            "98": "#F5FBEE",
-            "99": "#F8FEF1",
-            "100": "#FFFFFF"
-        }
+    "Size": {
+      "size-1": {
+        "value": "0.5rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "size-2": {
+        "value": "1rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "size-3": {
+        "value": "1.5rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "size-4": {
+        "value": "2rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "size-5": {
+        "value": "2.5rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "size-6": {
+        "value": "3rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "size-7": {
+        "value": "4rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "size-8": {
+        "value": "5rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      },
+      "size-0": {
+        "value": "0.25rem",
+        "type": "dimension",
+        "parent": "Global/Mode 1",
+        "description": ""
+      }
     }
+  },
+  "Components/light": {
+    "Input": {
+      "Stroke": {
+        "input-stroke-default": {
+          "value": "{States.state-default}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-stroke-disabled": {
+          "value": "{States.state-disable}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-stroke-error": {
+          "value": "{States.state-error}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-stroke-success": {
+          "value": "{States.state-success}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        }
+      },
+      "Placeholder": {
+        "input-placeholder": {
+          "value": "{States.state-disable}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-placeholder-fontfamily": {
+          "value": "Inter",
+          "type": "text",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-placeholder-fontweight": {
+          "value": "medium",
+          "type": "text",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-placeholder-size": {
+          "value": "{Size.size-4}",
+          "type": "dimension",
+          "parent": "Components/light",
+          "description": ""
+        }
+      },
+      "Message": {
+        "input-message-error-color": {
+          "value": "{States.state-error}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-message-default-color": {
+          "value": "{States.state-default}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-message-success-color": {
+          "value": "{States.state-success}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-message-disable-color": {
+          "value": "{States.state-disable}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-message-error-fontfamily": {
+          "value": "Inter",
+          "type": "text",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-message-fontweight": {
+          "value": "bold",
+          "type": "text",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-message-error-size": {
+          "value": "{Size.size-3}",
+          "type": "dimension",
+          "parent": "Components/light",
+          "description": ""
+        }
+      },
+      "Label": {
+        "input-label-color-default": {
+          "value": "{States.state-default}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-label-color-disable": {
+          "value": "{States.state-disable}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-label-color-success": {
+          "value": "{States.state-success}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-label-color-error": {
+          "value": "{States.state-error}",
+          "type": "color",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-label-fontfamily": {
+          "value": "Inter",
+          "type": "text",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-label-fontweight": {
+          "value": "semi bold",
+          "type": "text",
+          "parent": "Components/light",
+          "description": ""
+        },
+        "input-label-size": {
+          "value": "{Size.size-4}",
+          "type": "dimension",
+          "parent": "Components/light",
+          "description": ""
+        }
+      },
+      "input-bgrd-colour-default": {
+        "value": "{Colour.white}",
+        "type": "color",
+        "parent": "Components/light",
+        "description": ""
+      },
+      "input-bgrd-colour-disable": {
+        "value": "{Colour.grey-0}",
+        "type": "color",
+        "parent": "Components/light",
+        "description": ""
+      },
+      "input-radius": {
+        "value": "{Dimensions.Radius.radius-1}",
+        "type": "dimension",
+        "parent": "Components/light",
+        "description": ""
+      }
+    },
+    "States": {
+      "state-default": {
+        "value": "{Colour.grey-3}",
+        "type": "color",
+        "parent": "Components/light",
+        "description": ""
+      },
+      "state-disable": {
+        "value": "{Colour.grey-1}",
+        "type": "color",
+        "parent": "Components/light",
+        "description": ""
+      },
+      "state-success": {
+        "value": "{Colour.green-1}",
+        "type": "color",
+        "parent": "Components/light",
+        "description": ""
+      },
+      "state-error": {
+        "value": "{Colour.red-1}",
+        "type": "color",
+        "parent": "Components/light",
+        "description": ""
+      }
+    }
+  },
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": [
+      "Global/Mode 1",
+      "Components/light"
+    ]
+  }
 }

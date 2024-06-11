@@ -1,0 +1,130 @@
+{
+  "states": {
+    "state-default": {
+      "$type": "color",
+      "$value": "{Colour.grey-3}"
+    },
+    "state-disable": {
+      "$type": "color",
+      "$value": "{Colour.grey-1}"
+    },
+    "state-success": {
+      "$type": "color",
+      "$value": "{Colour.green-1}"
+    },
+    "state-error": {
+      "$type": "color",
+      "$value": "{Colour.red-1}"
+    }
+  },
+  "Input": {
+    "input-radius": {
+      "$type": "dimension",
+      "$value": "{Dimensions.Radius.radius-1}"
+    },
+    "Stroke": {
+      "input-stroke-default": {
+        "$type": "color",
+        "$value": "{states.state-default}"
+      },
+      "input-stroke-disabled": {
+        "$type": "color",
+        "$value": "{states.state-disable}"
+      },
+      "input-stroke-error": {
+        "$type": "color",
+        "$value": "{states.state-error}"
+      },
+      "input-stroke-success": {
+        "$type": "color",
+        "$value": "{states.state-success}"
+      }
+    },
+    "input-bgrd-colour-default": {
+      "$type": "color",
+      "$value": "{Colour.white}"
+    },
+    "input-bgrd-colour-disable": {
+      "$type": "color",
+      "$value": "{Colour.grey-0}"
+    },
+    "Label": {
+      "input-label-fontfamily": {
+        "$type": "string",
+        "$value": "Inter"
+      },
+      "input-label-fontweight": {
+        "$type": "string",
+        "$value": "semi bold"
+      },
+      "input-label-size": {
+        "$type": "dimension",
+        "$value": "{Size.size-4}"
+      },
+      "input-label-color-default": {
+        "$type": "color",
+        "$value": "{states.state-default}"
+      },
+      "input-label-color-disable": {
+        "$type": "color",
+        "$value": "{states.state-disable}"
+      },
+      "input-label-color-success": {
+        "$type": "color",
+        "$value": "{states.state-success}"
+      },
+      "input-label-color-error": {
+        "$type": "color",
+        "$value": "{states.state-error}"
+      }
+    },
+    "Message": {
+      "input-message-error-size": {
+        "$type": "dimension",
+        "$value": "{Size.size-3}"
+      },
+      "input-message-error-fontfamily": {
+        "$type": "string",
+        "$value": "Inter"
+      },
+      "input-message-error-color": {
+        "$type": "color",
+        "$value": "{states.state-error}"
+      },
+      "input-message-default-color": {
+        "$type": "color",
+        "$value": "{states.state-default}"
+      },
+      "input-message-success-color": {
+        "$type": "color",
+        "$value": "{states.state-success}"
+      },
+      "input-message-disable-color": {
+        "$type": "color",
+        "$value": "{states.state-disable}"
+      },
+      "input-message-fontweight": {
+        "$type": "string",
+        "$value": "bold"
+      }
+    },
+    "Placeholder": {
+      "input-placeholder-fontfamily": {
+        "$type": "string",
+        "$value": "Inter"
+      },
+      "input-placeholder-fontweight": {
+        "$type": "string",
+        "$value": "medium"
+      },
+      "input-placeholder-size": {
+        "$type": "dimension",
+        "$value": "{Size.size-4}"
+      },
+      "input-placeholder": {
+        "$type": "color",
+        "$value": "{states.state-disable}"
+      }
+    }
+  }
+}

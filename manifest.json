@@ -1,0 +1,20 @@
+{
+  "name": "Design Tokens",
+  "collections": {
+    "Global": {
+      "modes": {
+        "Mode 1": [
+          "Global.Mode 1.tokens.json"
+        ]
+      }
+    },
+    "Components": {
+      "modes": {
+        "light": [
+          "Components.light.tokens.json"
+        ]
+      }
+    }
+  },
+  "styles": {}
+}

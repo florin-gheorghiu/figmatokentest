@@ -322,13 +322,13 @@
         }
       },
       "bgrd-colour-default": {
-        "value": "{colour.white}",
+        "value": "colour.white",
         "type": "color",
         "parent": "component/light",
         "description": ""
       },
       "bgrd-colour-disable": {
-        "value": "{colour.grey-0}",
+        "value": "colour.grey-0",
         "type": "color",
         "parent": "component/light",
         "description": ""

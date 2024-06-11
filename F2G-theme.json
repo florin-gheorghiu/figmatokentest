@@ -195,7 +195,7 @@
           "description": ""
         },
         "stroke-error": {
-          "value": "{states.error}",
+          "value": "#d60000",
           "type": "color",
           "parent": "component/light",
           "description": ""
@@ -235,7 +235,7 @@
       },
       "message": {
         "message-error-color": {
-          "value": "{states.error}",
+          "value": "#d60000",
           "type": "color",
           "parent": "component/light",
           "description": ""
@@ -360,7 +360,7 @@
         "description": ""
       },
       "error": {
-        "value": "{colour.red-1}",
+        "value": "#d60000",
         "type": "color",
         "parent": "component/light",
         "description": ""

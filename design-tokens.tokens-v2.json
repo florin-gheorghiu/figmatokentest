@@ -359,7 +359,7 @@
       },
       "red-1": {
         "type": "color",
-        "value": "#D60000",
+        "value": "#8FFF00",
         "blendMode": "normal",
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {

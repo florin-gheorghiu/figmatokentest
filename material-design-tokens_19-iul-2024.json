@@ -1,6 +1,6 @@
 {
   "color": {
-    "material-theme-test1": {
+    "material-theme--test-2": {
       "white": {
         "description": "",
         "type": "color",
@@ -16094,7 +16094,7 @@
     }
   },
   "font": {
-    "material-theme-test1": {
+    "material-theme--test-2": {
       "display": {
         "large": {
           "type": "custom-fontStyle",
@@ -16438,7 +16438,7 @@
     }
   },
   "typography": {
-    "material-theme-test1": {
+    "material-theme--test-2": {
       "display": {
         "large": {
           "fontSize": {

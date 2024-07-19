@@ -30,7 +30,7 @@
           "primary": {
             "description": "Primary / On Primary\n\nRegular text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nLarge text:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass\n\nIcons:\nLevel AA - ✅ Pass\nLevel AAA - ✅ Pass",
             "type": "color",
-            "value": "#970024ff",
+            "value": "#668899ff",
             "blendMode": "normal",
             "extensions": {
               "org.lukasoppermann.figmaDesignTokens": {

@@ -16235,7 +16235,7 @@
         "large": {
           "type": "custom-fontStyle",
           "value": {
-            "fontSize": 16,
+            "fontSize": 10,
             "textDecoration": "none",
             "fontFamily": "Roboto",
             "fontWeight": 400,

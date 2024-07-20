@@ -1,6 +1,7 @@
-Testing the tokenisation process from Figma to Github, using Tokens Studio
+Testing the tokenisation process from Figma to Github.
 
-Plugins tested:
+Plugins tested so far:
 - Token Studio
+- Material Theme Builder
 - Design Tokens
 - TokensBrucke

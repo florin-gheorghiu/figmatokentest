@@ -488,6 +488,22 @@
             }
           }
         }
+      },
+      "neon-1": {
+        "type": "color",
+        "value": "#9eff00",
+        "description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:55:375",
+            "collection": {
+              "id": "VariableCollectionId:20:9",
+              "name": "global",
+              "defaultModeId": "20:0"
+            }
+          }
+        }
       }
     }
   },
@@ -985,7 +1001,7 @@
       },
       "focus": {
         "type": "color",
-        "value": "{global.colour.blue-1}",
+        "value": "{global.colour.neon-1}",
         "description": "",
         "$extensions": {
           "mode": {},
@@ -1077,7 +1093,7 @@
         "global",
         "component"
       ],
-      "createdAt": "2024-07-20T11:16:51.271Z"
+      "createdAt": "2024-07-20T11:21:15.772Z"
     }
   }
 }

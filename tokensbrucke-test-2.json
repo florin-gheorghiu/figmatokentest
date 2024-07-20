@@ -504,6 +504,22 @@
             }
           }
         }
+      },
+      "black": {
+        "type": "color",
+        "value": "#000000",
+        "description": "",
+        "$extensions": {
+          "mode": {},
+          "figma": {
+            "variableId": "VariableID:57:425",
+            "collection": {
+              "id": "VariableCollectionId:20:9",
+              "name": "global",
+              "defaultModeId": "20:0"
+            }
+          }
+        }
       }
     }
   },
@@ -664,6 +680,22 @@
             "mode": {},
             "figma": {
               "variableId": "VariableID:20:58",
+              "collection": {
+                "id": "VariableCollectionId:20:46",
+                "name": "component",
+                "defaultModeId": "20:2"
+              }
+            }
+          }
+        },
+        "input-text": {
+          "type": "color",
+          "value": "{component.states.default}",
+          "description": "",
+          "$extensions": {
+            "mode": {},
+            "figma": {
+              "variableId": "VariableID:57:424",
               "collection": {
                 "id": "VariableCollectionId:20:46",
                 "name": "component",
@@ -1093,7 +1125,7 @@
         "global",
         "component"
       ],
-      "createdAt": "2024-07-20T11:54:22.753Z"
+      "createdAt": "2024-07-20T12:16:22.763Z"
     }
   }
 }

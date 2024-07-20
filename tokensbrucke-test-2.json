@@ -1001,7 +1001,7 @@
       },
       "focus": {
         "type": "color",
-        "value": "{global.colour.neon-1}",
+        "value": "{global.colour.blue-1}",
         "description": "",
         "$extensions": {
           "mode": {},
@@ -1093,7 +1093,7 @@
         "global",
         "component"
       ],
-      "createdAt": "2024-07-20T11:21:15.772Z"
+      "createdAt": "2024-07-20T11:27:01.919Z"
     }
   }
 }

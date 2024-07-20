@@ -935,7 +935,7 @@
       },
       "bgrd-colour-default": {
         "type": "color",
-        "value": "{global.colour.neon-1}",
+        "value": "{global.colour.white}",
         "description": "",
         "$extensions": {
           "mode": {},
@@ -1125,7 +1125,7 @@
         "global",
         "component"
       ],
-      "createdAt": "2024-07-20T12:23:58.433Z"
+      "createdAt": "2024-07-20T12:31:22.598Z"
     }
   }
 }

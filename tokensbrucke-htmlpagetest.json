@@ -217,7 +217,7 @@
     "H2 Headline": {
       "fontFamily": {
         "type": "string",
-        "value": "Arial",
+        "value": "Caveat",
         "description": "",
         "$extensions": {
           "mode": {},

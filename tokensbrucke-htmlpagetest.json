@@ -84,7 +84,7 @@
     },
     "card-stroke": {
       "type": "color",
-      "value": "#03a0d2",
+      "value": "#000000",
       "description": "",
       "$extensions": {
         "mode": {},

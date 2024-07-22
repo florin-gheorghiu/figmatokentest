@@ -2,7 +2,7 @@
   "dimensions": {
     "radius": {
       "type": "dimension",
-      "value": "8px",
+      "value": "16px",
       "description": "",
       "$extensions": {
         "mode": {},
@@ -84,12 +84,28 @@
     },
     "card-stroke": {
       "type": "color",
-      "value": "#000000",
+      "value": "#03a0d2",
       "description": "",
       "$extensions": {
         "mode": {},
         "figma": {
           "variableId": "VariableID:1:41",
+          "collection": {
+            "id": "VariableCollectionId:1:38",
+            "name": "colors",
+            "defaultModeId": "1:1"
+          }
+        }
+      }
+    },
+    "headline-colour": {
+      "type": "color",
+      "value": "#4e4e4e",
+      "description": "",
+      "$extensions": {
+        "mode": {},
+        "figma": {
+          "variableId": "VariableID:1:91",
           "collection": {
             "id": "VariableCollectionId:1:38",
             "name": "colors",
@@ -217,7 +233,7 @@
     "H2 Headline": {
       "fontFamily": {
         "type": "string",
-        "value": "Caveat",
+        "value": "Arial",
         "description": "",
         "$extensions": {
           "mode": {},
@@ -448,7 +464,7 @@
       "H1 Headline": {
         "type": "typography",
         "value": {
-          "fontFamily": "Inter",
+          "fontFamily": "Arial",
           "fontWeight": 700,
           "fontSize": "32px",
           "lineHeight": "auto",
@@ -464,9 +480,9 @@
       "H2 Headline": {
         "type": "typography",
         "value": {
-          "fontFamily": "Figma Hand",
-          "fontWeight": 400,
-          "fontSize": "28px",
+          "fontFamily": "Arial",
+          "fontWeight": 700,
+          "fontSize": "24px",
           "lineHeight": "auto",
           "letterSpacing": "0%",
           "textDecoration": "NONE",
@@ -506,7 +522,7 @@
         "colors",
         "text-styles"
       ],
-      "createdAt": "2024-07-22T11:27:50.923Z"
+      "createdAt": "2024-07-22T11:47:10.153Z"
     }
   }
 }

@@ -52,7 +52,7 @@
   "colors": {
     "headline-backgroud": {
       "type": "color",
-      "value": "#efefef",
+      "value": "#ffefb5",
       "description": "",
       "$extensions": {
         "mode": {},
@@ -506,7 +506,7 @@
         "colors",
         "text-styles"
       ],
-      "createdAt": "2024-07-22T11:10:39.002Z"
+      "createdAt": "2024-07-22T11:23:16.240Z"
     }
   }
 }

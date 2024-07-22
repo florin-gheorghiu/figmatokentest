@@ -465,7 +465,7 @@
         "type": "typography",
         "value": {
           "fontFamily": "Figma Hand",
-          "fontWeight": 400,
+          "fontWeight": 800,
           "fontSize": "28px",
           "lineHeight": "auto",
           "letterSpacing": "0%",

@@ -68,7 +68,7 @@
     },
     "branding-colour": {
       "type": "color",
-      "value": "#bf75f9",
+      "value": "#71b2ff",
       "description": "",
       "$extensions": {
         "mode": {},
@@ -84,7 +84,7 @@
     },
     "card-stroke": {
       "type": "color",
-      "value": "#d9d9d9",
+      "value": "#03a0d2",
       "description": "",
       "$extensions": {
         "mode": {},
@@ -444,52 +444,54 @@
     }
   },
   "Typography": {
-    "H1 Headline": {
-      "type": "typography",
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": 700,
-        "fontSize": "32px",
-        "lineHeight": "auto",
-        "letterSpacing": "0%",
-        "textDecoration": "NONE",
-        "textCase": "ORIGINAL"
+    "Typography": {
+      "H1 Headline": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "Arial",
+          "fontWeight": 700,
+          "fontSize": "32px",
+          "lineHeight": "auto",
+          "letterSpacing": "0%",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "testing Github",
+        "$extensions": {
+          "styleId": "S:4d59a77ecb842059e27a30a1e946ea044d534417,"
+        }
       },
-      "description": "testing Github",
-      "$extensions": {
-        "styleId": "S:c4134a0aa57e493b18127a5caf6b543c209fd7ad,"
-      }
-    },
-    "H2 Headline": {
-      "type": "typography",
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": 700,
-        "fontSize": "24px",
-        "lineHeight": "auto",
-        "letterSpacing": "0%",
-        "textDecoration": "NONE",
-        "textCase": "ORIGINAL"
+      "H2 Headline": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "Arial",
+          "fontWeight": 700,
+          "fontSize": "24px",
+          "lineHeight": "auto",
+          "letterSpacing": "0%",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "testing on Github",
+        "$extensions": {
+          "styleId": "S:509062fb3f70dc4b28899fb3eec87b02c9fb11e7,"
+        }
       },
-      "description": "testing on Github",
-      "$extensions": {
-        "styleId": "S:71b425d555943fee80b61a6c9a8ff7324b52df3f,"
-      }
-    },
-    "Paragraph": {
-      "type": "typography",
-      "value": {
-        "fontFamily": "Arial",
-        "fontWeight": 400,
-        "fontSize": "14px",
-        "lineHeight": "22px",
-        "letterSpacing": "0%",
-        "textDecoration": "NONE",
-        "textCase": "ORIGINAL"
-      },
-      "description": "testing on Github",
-      "$extensions": {
-        "styleId": "S:5e797d14f5a5b91cf470a337b1296f56c557ebb8,"
+      "Paragraph": {
+        "type": "typography",
+        "value": {
+          "fontFamily": "Arial",
+          "fontWeight": 400,
+          "fontSize": "14px",
+          "lineHeight": "22px",
+          "letterSpacing": "0%",
+          "textDecoration": "NONE",
+          "textCase": "ORIGINAL"
+        },
+        "description": "testing on Github",
+        "$extensions": {
+          "styleId": "S:88d9447e07364d95696e43eb15b0742a273ed0c9,"
+        }
       }
     }
   },
@@ -504,7 +506,7 @@
         "colors",
         "text-styles"
       ],
-      "createdAt": "2024-07-22T11:07:35.194Z"
+      "createdAt": "2024-07-22T11:10:39.002Z"
     }
   }
 }

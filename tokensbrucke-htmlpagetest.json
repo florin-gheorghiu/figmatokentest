@@ -103,7 +103,7 @@
     "H1 Headline": {
       "fontFamily": {
         "type": "string",
-        "value": "Arial",
+        "value": "Caveat",
         "description": "",
         "$extensions": {
           "mode": {},

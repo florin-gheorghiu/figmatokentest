@@ -2,7 +2,7 @@
   "dimensions": {
     "radius": {
       "type": "dimension",
-      "value": "16px",
+      "value": "8px",
       "description": "",
       "$extensions": {
         "mode": {},

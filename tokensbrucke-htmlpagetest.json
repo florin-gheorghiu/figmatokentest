@@ -103,7 +103,7 @@
     "H1 Headline": {
       "fontFamily": {
         "type": "string",
-        "value": "Caveat",
+        "value": "Arial",
         "description": "",
         "$extensions": {
           "mode": {},
@@ -448,7 +448,7 @@
       "H1 Headline": {
         "type": "typography",
         "value": {
-          "fontFamily": "Arial",
+          "fontFamily": "Inter",
           "fontWeight": 700,
           "fontSize": "32px",
           "lineHeight": "auto",

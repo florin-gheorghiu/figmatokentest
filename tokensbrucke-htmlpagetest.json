@@ -465,7 +465,7 @@
         "type": "typography",
         "value": {
           "fontFamily": "Caveat",
-          "fontWeight": 500,
+          "fontWeight": 400,
           "fontSize": "28px",
           "lineHeight": "auto",
           "letterSpacing": "0%",

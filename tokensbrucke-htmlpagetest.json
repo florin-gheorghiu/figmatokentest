@@ -504,7 +504,7 @@
           "textDecoration": "NONE",
           "textCase": "ORIGINAL"
         },
-        "description": "testing on Github",
+        "description": "Style for H2 headlines",
         "$extensions": {
           "styleId": "S:509062fb3f70dc4b28899fb3eec87b02c9fb11e7,"
         }

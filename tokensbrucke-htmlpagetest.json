@@ -2,7 +2,7 @@
   "dimensions": {
     "radius": {
       "type": "dimension",
-      "value": "8px",
+      "value": "16px",
       "description": "",
       "$extensions": {
         "mode": {},
@@ -506,7 +506,7 @@
         "colors",
         "text-styles"
       ],
-      "createdAt": "2024-07-22T11:23:16.240Z"
+      "createdAt": "2024-07-22T11:25:48.325Z"
     }
   }
 }

@@ -464,7 +464,7 @@
       "H2 Headline": {
         "type": "typography",
         "value": {
-          "fontFamily": "Figma Hand",
+          "fontFamily": "Figma hand",
           "fontWeight": 600,
           "fontSize": "28px",
           "lineHeight": "auto",

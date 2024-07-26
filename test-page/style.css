@@ -23,7 +23,7 @@
   width: 980px;
   height: 642px;
   align-items: center;
-  gap: 32px;
+  gap: var(--dimensions-spacing-content-1);
   position: absolute;
   top: 194px;
   left: 230px;
@@ -33,18 +33,17 @@
   display: flex;
   min-width: 520px;
   align-items: flex-start;
-  gap: 32px;
-  padding: 32px;
+  gap: var(--dimensions-spacing-content-1);
+  padding: var(--dimensions-spacing-content-1);
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  margin-top: -1px;
-  margin-left: -1px;
-  margin-right: -1px;
-  border-radius: 8px;
-  border: 1px solid;
-  border-color: var(--colorscard-stroke);
+  margin-top: calc(-1 * var(--dimensions-stroke-size));
+  margin-left: calc(-1 * var(--dimensions-stroke-size));
+  margin-right: calc(-1 * var(--dimensions-stroke-size));
+  border-radius: var(--dimensions-radius);
+  border: var(--dimensions-stroke-size) solid var(--colorscard-stroke);
 }
 
 .desktop .image {
@@ -52,7 +51,7 @@
   width: 180px;
   height: 180px;
   background-color: var(--colorsbranding-colour);
-  border-radius: 8px;
+  border-radius: var(--dimensions-radius);
   overflow: hidden;
 }
 
@@ -87,7 +86,7 @@
   flex-direction: column;
   min-width: 244px;
   align-items: flex-start;
-  gap: 16px;
+  gap: var(--dimensions-spacing-content-2);
   position: relative;
   flex: 1;
   flex-grow: 1;
@@ -96,40 +95,39 @@
 .desktop .text-wrapper {
   position: relative;
   width: fit-content;
-  margin-top: -1px;
-  font-family: "Arial-Bold", Helvetica;
-  font-weight: 700;
+  margin-top: calc(-1 * var(--dimensions-stroke-size));
+  font-family: var(--typography-h2-headline-font-family);
+  font-weight: var(--typography-h2-headline-font-weight);
   color: var(--colorsheadline-colour);
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: normal;
+  font-size: var(--typography-h2-headline-font-size);
+  letter-spacing: var(--typography-h2-headline-letter-spacing);
+  line-height: var(--typography-h2-headline-line-height);
   white-space: nowrap;
 }
 
 .desktop .text {
   position: relative;
   align-self: stretch;
-  font-family: "Arial-Regular", Helvetica;
-  font-weight: 400;
+  font-family: var(--typography-paragraph-font-family);
+  font-weight: var(--typography-paragraph-font-weight);
   color: #000000;
-  font-size: 14px;
-  letter-spacing: 0;
-  line-height: 22px;
+  font-size: var(--typography-paragraph-font-size);
+  letter-spacing: var(--typography-paragraph-letter-spacing);
+  line-height: var(--typography-paragraph-line-height);
 }
 
 .desktop .div {
   display: flex;
   min-width: 520px;
   align-items: flex-start;
-  gap: 32px;
-  padding: 32px;
+  gap: var(--dimensions-spacing-content-1);
+  padding: var(--dimensions-spacing-content-1);
   position: relative;
   align-self: stretch;
   width: 100%;
   flex: 0 0 auto;
-  border-radius: 8px;
-  border: 1px solid;
-  border-color: var(--colorscard-stroke);
+  border-radius: var(--dimensions-radius);
+  border: var(--dimensions-stroke-size) solid var(--colorscard-stroke);
 }
 
 .desktop .header {
@@ -138,7 +136,7 @@
   align-items: center;
   justify-content: center;
   gap: 8px;
-  padding: 32px;
+  padding: var(--dimensions-spacing-content-1);
   position: absolute;
   top: 0;
   left: 0;
@@ -148,13 +146,12 @@
 .desktop .p {
   position: relative;
   flex: 1;
-  margin-top: -1px;
-  font-family: "Arial-Bold", Helvetica;
-  font-weight: 700;
+  margin-top: calc(-1 * var(--dimensions-stroke-size));
+  font-family: var(--typography-h1-headline-font-family);
+  font-weight: var(--typography-h1-headline-font-weight);
   color: var(--colorsheadline-colour);
-  font-size: 32px;
+  font-size: var(--typography-h1-headline-font-size);
   text-align: center;
-  letter-spacing: 0;
-  line-height: normal;
+  letter-spacing: var(--typography-h1-headline-letter-spacing);
+  line-height: var(--typography-h1-headline-line-height);
 }
-

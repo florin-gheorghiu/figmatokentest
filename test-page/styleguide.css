@@ -1,1 +1,25 @@
+:root {
+  --colorsheadline-backgroud: rgba(255, 239, 181, 1);
+  --colorsbranding-colour: rgba(113, 178, 255, 1);
+  --colorscard-stroke: rgba(3, 160, 210, 1);
+  --colorsheadline-colour: rgba(78, 78, 78, 1);
+  --typography-h1-headline-font-family: "Arial", Helvetica;
+  --typography-h1-headline-font-weight: 700;
+  --typography-h1-headline-font-size: 32px;
+  --typography-h1-headline-letter-spacing: 0px;
+  --typography-h1-headline-line-height: normal;
+  --typography-h1-headline-font-style: normal;
+  --typography-h2-headline-font-family: "Arial", Helvetica;
+  --typography-h2-headline-font-weight: 700;
+  --typography-h2-headline-font-size: 24px;
+  --typography-h2-headline-letter-spacing: 0px;
+  --typography-h2-headline-line-height: normal;
+  --typography-h2-headline-font-style: normal;
+  --typography-paragraph-font-family: "Arial", Helvetica;
+  --typography-paragraph-font-weight: 400;
+  --typography-paragraph-font-size: 14px;
+  --typography-paragraph-letter-spacing: 0px;
+  --typography-paragraph-line-height: 22px;
+  --typography-paragraph-font-style: normal;
+}
 

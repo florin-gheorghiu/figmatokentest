@@ -1,157 +1,77 @@
+.tokensbrucke-htmlpagetest-theme {
+  font-family: Arial, sans-serif;
+}
+
 .desktop {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
+  /* max-width: 1440px; */
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.header {
+  background-color: var(--colors-headline-backgroud, #FF0000);
+  padding: 20px 0;
+  text-align: center;
   width: 100%;
 }
 
-.desktop .body-wrapper {
-  background-color: #ffffff;
-  width: 1440px;
-  height: 1024px;
+.header h1 {
+  color: var(--colors-headline-colour, #4E4E4E);
+  font-size: var(--text-styles-h1-headline-font-size, 32px);
+  font-weight: var(--text-styles-h1-headline-font-weight, 700);
+  margin: 0;
 }
 
-.desktop .body {
-  position: relative;
-  height: 1024px;
-}
-
-.desktop .content {
+.content {
   display: flex;
   flex-direction: column;
-  width: 980px;
-  height: 642px;
-  align-items: center;
-  gap: var(--dimensions-spacing-content-1);
-  position: absolute;
-  top: 194px;
-  left: 230px;
+  align-items: center; /* Center the cards horizontally */
+  gap: var(--dimensions-spacing-content-1, 32px);
+  padding: var(--dimensions-spacing-content-1, 32px) 0;
 }
 
-.desktop .card {
+.card {
   display: flex;
-  min-width: 520px;
-  align-items: flex-start;
-  gap: var(--dimensions-spacing-content-1);
-  padding: var(--dimensions-spacing-content-1);
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  margin-top: calc(-1 * var(--dimensions-stroke-size));
-  margin-left: calc(-1 * var(--dimensions-stroke-size));
-  margin-right: calc(-1 * var(--dimensions-stroke-size));
-  border-radius: var(--dimensions-radius);
-  border: var(--dimensions-stroke-size) solid var(--colorscard-stroke);
+  gap: var(--dimensions-spacing-content-1, 32px);
+  padding: var(--dimensions-spacing-content-1, 32px);
+  border: var(--dimensions-stroke-size, 1px) solid var(--colors-card-stroke, #D9D9D9);
+  border-radius: var(--dimensions-radius, 8px);
+  max-width: 980px; /* Set a maximum width for the cards */
+  width: 100%; /* Ensure it takes full width up to the max-width */
 }
 
-.desktop .image {
-  position: relative;
+.image {
+  flex-shrink: 0;
   width: 180px;
   height: 180px;
-  background-color: var(--colorsbranding-colour);
-  border-radius: var(--dimensions-radius);
-  overflow: hidden;
 }
 
-.desktop .overlap-group {
-  position: relative;
-  width: 123px;
-  height: 110px;
-  top: 35px;
-  left: 30px;
+.placeholder-image {
+  width: 100%;
+  height: 100%;
+  background-color: var(--colors-branding-colour, #71B2FF);
+  border-radius: var(--dimensions-radius, 8px);
 }
 
-.desktop .union {
-  position: absolute;
-  width: 123px;
-  height: 80px;
-  top: 29px;
-  left: 0;
-}
-
-.desktop .ellipse {
-  position: absolute;
-  width: 37px;
-  height: 37px;
-  top: 0;
-  left: 14px;
-  background-color: var(--colorsheadline-backgroud);
-  border-radius: 18.5px;
-}
-
-.desktop .right-content {
-  display: flex;
-  flex-direction: column;
-  min-width: 244px;
-  align-items: flex-start;
-  gap: var(--dimensions-spacing-content-2);
-  position: relative;
-  flex: 1;
+.text-content {
   flex-grow: 1;
 }
 
-.desktop .text-wrapper {
-  position: relative;
-  width: fit-content;
-  margin-top: calc(-1 * var(--dimensions-stroke-size));
-  font-family: var(--typography-h2-headline-font-family);
-  font-weight: var(--typography-h2-headline-font-weight);
-  color: var(--colorsheadline-colour);
-  font-size: var(--typography-h2-headline-font-size);
-  letter-spacing: var(--typography-h2-headline-letter-spacing);
-  line-height: var(--typography-h2-headline-line-height);
-  white-space: nowrap;
+h2 {
+  color: var(--colors-headline-colour, #4E4E4E);
+  font-size: var(--text-styles-h2-headline-font-size, 24px);
+  font-weight: var(--text-styles-h2-headline-font-weight, 700);
+  margin-top: 0;
+  margin-bottom: var(--dimensions-spacing-content-2, 16px);
 }
 
-.desktop .text {
-  position: relative;
-  align-self: stretch;
-  font-family: var(--typography-paragraph-font-family);
-  font-weight: var(--typography-paragraph-font-weight);
+p {
   color: #000000;
-  font-size: var(--typography-paragraph-font-size);
-  letter-spacing: var(--typography-paragraph-letter-spacing);
-  line-height: var(--typography-paragraph-line-height);
+  font-size: var(--text-styles-paragraph-font-size, 14px);
+  line-height: var(--text-styles-paragraph-line-height, 22px);
+  margin-bottom: var(--dimensions-spacing-content-2, 16px);
 }
 
-.desktop .div {
-  display: flex;
-  min-width: 520px;
-  align-items: flex-start;
-  gap: var(--dimensions-spacing-content-1);
-  padding: var(--dimensions-spacing-content-1);
-  position: relative;
-  align-self: stretch;
-  width: 100%;
-  flex: 0 0 auto;
-  border-radius: var(--dimensions-radius);
-  border: var(--dimensions-stroke-size) solid var(--colorscard-stroke);
-}
-
-.desktop .header {
-  display: flex;
-  width: 1440px;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-  padding: var(--dimensions-spacing-content-1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--colorsheadline-backgroud);
-}
-
-.desktop .p {
-  position: relative;
-  flex: 1;
-  margin-top: calc(-1 * var(--dimensions-stroke-size));
-  font-family: var(--typography-h1-headline-font-family);
-  font-weight: var(--typography-h1-headline-font-weight);
-  color: var(--colorsheadline-colour);
-  font-size: var(--typography-h1-headline-font-size);
-  text-align: center;
-  letter-spacing: var(--typography-h1-headline-letter-spacing);
-  line-height: var(--typography-h1-headline-line-height);
+p:last-child {
+  margin-bottom: 0;
 }

@@ -1,1 +1,160 @@
+.desktop {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.desktop .body-wrapper {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 1024px;
+}
+
+.desktop .body {
+  position: relative;
+  height: 1024px;
+}
+
+.desktop .content {
+  display: flex;
+  flex-direction: column;
+  width: 980px;
+  height: 642px;
+  align-items: center;
+  gap: 32px;
+  position: absolute;
+  top: 194px;
+  left: 230px;
+}
+
+.desktop .card {
+  display: flex;
+  min-width: 520px;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  margin-top: -1px;
+  margin-left: -1px;
+  margin-right: -1px;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--colorscard-stroke);
+}
+
+.desktop .image {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  background-color: var(--colorsbranding-colour);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.desktop .overlap-group {
+  position: relative;
+  width: 123px;
+  height: 110px;
+  top: 35px;
+  left: 30px;
+}
+
+.desktop .union {
+  position: absolute;
+  width: 123px;
+  height: 80px;
+  top: 29px;
+  left: 0;
+}
+
+.desktop .ellipse {
+  position: absolute;
+  width: 37px;
+  height: 37px;
+  top: 0;
+  left: 14px;
+  background-color: var(--colorsheadline-backgroud);
+  border-radius: 18.5px;
+}
+
+.desktop .right-content {
+  display: flex;
+  flex-direction: column;
+  min-width: 244px;
+  align-items: flex-start;
+  gap: 16px;
+  position: relative;
+  flex: 1;
+  flex-grow: 1;
+}
+
+.desktop .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--colorsheadline-colour);
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.desktop .text {
+  position: relative;
+  align-self: stretch;
+  font-family: "Arial-Regular", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.desktop .div {
+  display: flex;
+  min-width: 520px;
+  align-items: flex-start;
+  gap: 32px;
+  padding: 32px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: var(--colorscard-stroke);
+}
+
+.desktop .header {
+  display: flex;
+  width: 1440px;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 32px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--colorsheadline-backgroud);
+}
+
+.desktop .p {
+  position: relative;
+  flex: 1;
+  margin-top: -1px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: var(--colorsheadline-colour);
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
 

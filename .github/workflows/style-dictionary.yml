@@ -21,4 +21,4 @@ jobs:
         run: npm install style-dictionary
 
       - name: Convert design tokens
-        run: npx style-dictionary build --config package.json
+        run: npx style-dictionary build --config config.json

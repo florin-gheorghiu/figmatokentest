@@ -1,0 +1,25 @@
+name: Sync CSS Files
+
+on:
+  push:
+    paths:
+      - 'output/css/tokensbrucke-htmlpagetest-variables.css'
+
+jobs:
+  sync-css:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Copy CSS file
+      run: |
+        mkdir -p test-page
+        cp output/css/tokensbrucke-htmlpagetest-variables.css test-page/
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add test-page/tokensbrucke-htmlpagetest-variables.css
+        git diff --quiet && git diff --staged --quiet || (git commit -m "Sync tokensbrucke-htmlpagetest-variables.css to test-page directory" && git push)

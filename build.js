@@ -80,17 +80,17 @@ console.log('Build started...');
 
 // PROCESS THE DESIGN TOKENS FOR THE DIFFEREN BRANDS AND PLATFORMS
 
-['base', 'brand-a', 'brand-b'].map(function (theme) {
+// ['base', 'brand-a', 'brand-b'].map(function (theme) {
 
-    console.log('\n==============================================');
-    console.log(`\nProcessing: [${theme}]`);
+//     console.log('\n==============================================');
+//     console.log(`\nProcessing: [${theme}]`);
 
-    const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
+//     const StyleDictionary = StyleDictionaryPackage.extend(getStyleDictionaryConfig(theme));
 
-    StyleDictionary.buildPlatform('web');
+//     StyleDictionary.buildPlatform('web');
 
-    console.log('\nEnd processing');
-})
+//     console.log('\nEnd processing');
+// })
 
 console.log('\n==============================================');
 console.log('\nBuild completed!');

@@ -5,3 +5,4 @@ Plugins tested so far:
 - Material Theme Builder
 - Design Tokens
 - TokensBrucke
+- Style Dictionary

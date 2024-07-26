@@ -1,0 +1,34 @@
+.tokensbrucke-htmlpagetest-theme {
+        --dimensions-radius: 8px;
+  --dimensions-spacing-content-1: 32px;
+  --dimensions-spacing-content-2: 16px;
+  --dimensions-stroke-size: 1px;
+  --colors-headline-backgroud: #ff0000;
+  --colors-branding-colour: #71b2ff;
+  --colors-card-stroke: #03a0d2;
+  --colors-headline-colour: #4e4e4e;
+  --text-styles-h1-headline-font-family: Arial;
+  --text-styles-h1-headline-font-style: Bold;
+  --text-styles-h1-headline-font-weight: 700px;
+  --text-styles-h1-headline-font-size: 32px;
+  --text-styles-h1-headline-paragraph-spacing: 0px;
+  --text-styles-h1-headline-letter-spacing: 0px;
+  --text-styles-h1-headline-line-height: 32px;
+  --text-styles-h2-headline-font-family: Arial;
+  --text-styles-h2-headline-font-style: Bold;
+  --text-styles-h2-headline-font-weight: 700px;
+  --text-styles-h2-headline-font-size: 24px;
+  --text-styles-h2-headline-paragraph-spacing: 0px;
+  --text-styles-h2-headline-letter-spacing: 0px;
+  --text-styles-h2-headline-line-height: 24px;
+  --text-styles-paragraph-font-family: Arial;
+  --text-styles-paragraph-font-style: Regular;
+  --text-styles-paragraph-font-weight: 400px;
+  --text-styles-paragraph-font-size: 14px;
+  --text-styles-paragraph-paragraph-spacing: 16px;
+  --text-styles-paragraph-letter-spacing: 0px;
+  --text-styles-paragraph-line-height: 22px;
+  --typography-typography-h1-headline: [object Object];
+  --typography-typography-h2-headline: [object Object];
+  --typography-typography-paragraph: [object Object];
+    }

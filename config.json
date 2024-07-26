@@ -5,7 +5,7 @@
         "transformGroup": "css",
         "buildPath": "output/css/",
         "files": [{
-          "destination": "output/styleguide.css",
+          "destination": "output/css/styleguide.css",
           "format": "css"
         }]
       }

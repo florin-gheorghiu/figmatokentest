@@ -1,0 +1,24 @@
+name: Convert Design Tokens
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '14'
+
+      - name: Install dependencies
+        run: npm install style-dictionary
+
+      - name: Convert design tokens
+        run: npx style-dictionary build --config figmatokentest/config.json

@@ -1,0 +1,13 @@
+{
+    "source": ["figmatokentest/input/tokensbrucke-htmlpagetest.json"],
+    "platforms": {
+      "css": {
+        "transformGroup": "css",
+        "buildPath": "build/css/",
+        "files": [{
+          "destination": "figmatokentest/output/styleguide.css",
+          "format": "css"
+        }]
+      }
+    }
+  }

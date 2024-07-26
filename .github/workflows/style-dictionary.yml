@@ -10,15 +10,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
-          node-version: '14'
+          node-version: '20'
 
       - name: Install dependencies
-        run: npm install style-dictionary
+        run: npm ci
 
       - name: Convert design tokens
-        run: npx style-dictionary build --config config.json
+        run: node build.js
+
+      - name: Commit changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/css/*.css
+          git commit -m "Update design tokens" || echo "No changes to commit"
+          git push

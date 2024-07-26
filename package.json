@@ -2,21 +2,10 @@
   "name": "figmatokentest",
   "version": "1.0.0",
   "description": "Design token conversion using Style Dictionary",
-  "main": "index.js",
+  "main": "build.js",
   "scripts": {
-    "build": "style-dictionary build --config config.json",
-    "clean": "rm -rf output"
+    "build": "node build.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/florin-gheorghiu/figmatokentest.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/florin-gheorghiu/figmatokentest/issues"
-  },
-  "homepage": "https://github.com/florin-gheorghiu/figmatokentest#readme",
   "dependencies": {
     "style-dictionary": "^3.8.0"
   }

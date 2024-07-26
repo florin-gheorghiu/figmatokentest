@@ -3,10 +3,10 @@
   --dimensions-spacing-content-1: 32px;
   --dimensions-spacing-content-2: 16px;
   --dimensions-stroke-size: 1px;
-  --colors-headline-backgroud: #ff0000;
-  --colors-branding-colour: #71b2ff;
-  --colors-card-stroke: #03a0d2;
-  --colors-headline-colour: #4e4e4e;
+  --colors-headline-backgroud: rgb(255, 0, 0);
+  --colors-branding-colour: rgb(113, 178, 255);
+  --colors-card-stroke: rgb(3, 160, 210);
+  --colors-headline-colour: rgb(78, 78, 78);
   --text-styles-h1-headline-font-family: Arial;
   --text-styles-h1-headline-font-style: Bold;
   --text-styles-h1-headline-font-weight: 700px;

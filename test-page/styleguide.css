@@ -1,25 +1,35 @@
 :root {
-  --colorsheadline-backgroud: rgba(255, 239, 181, 1);
-  --colorsbranding-colour: rgba(113, 178, 255, 1);
-  --colorscard-stroke: rgba(3, 160, 210, 1);
-  --colorsheadline-colour: rgba(78, 78, 78, 1);
-  --typography-h1-headline-font-family: "Arial", Helvetica;
-  --typography-h1-headline-font-weight: 700;
-  --typography-h1-headline-font-size: 32px;
-  --typography-h1-headline-letter-spacing: 0px;
-  --typography-h1-headline-line-height: normal;
-  --typography-h1-headline-font-style: normal;
-  --typography-h2-headline-font-family: "Arial", Helvetica;
-  --typography-h2-headline-font-weight: 700;
-  --typography-h2-headline-font-size: 24px;
-  --typography-h2-headline-letter-spacing: 0px;
-  --typography-h2-headline-line-height: normal;
-  --typography-h2-headline-font-style: normal;
-  --typography-paragraph-font-family: "Arial", Helvetica;
-  --typography-paragraph-font-weight: 400;
-  --typography-paragraph-font-size: 14px;
-  --typography-paragraph-letter-spacing: 0px;
-  --typography-paragraph-line-height: 22px;
-  --typography-paragraph-font-style: normal;
-}
+  /* Colors */
+  --colorsheadline-backgroud: var(--colors-headline-backgroud);
+  --colorsbranding-colour: var(--colors-branding-colour);
+  --colorscard-stroke: var(--colors-card-stroke);
+  --colorsheadline-colour: var(--colors-headline-colour);
 
+  /* Typography */
+  --typography-h1-headline-font-family: var(--text-styles-h1-headline-font-family);
+  --typography-h1-headline-font-weight: var(--text-styles-h1-headline-font-weight);
+  --typography-h1-headline-font-size: var(--text-styles-h1-headline-font-size);
+  --typography-h1-headline-letter-spacing: var(--text-styles-h1-headline-letter-spacing);
+  --typography-h1-headline-line-height: var(--text-styles-h1-headline-line-height);
+  --typography-h1-headline-font-style: var(--text-styles-h1-headline-font-style);
+
+  --typography-h2-headline-font-family: var(--text-styles-h2-headline-font-family);
+  --typography-h2-headline-font-weight: var(--text-styles-h2-headline-font-weight);
+  --typography-h2-headline-font-size: var(--text-styles-h2-headline-font-size);
+  --typography-h2-headline-letter-spacing: var(--text-styles-h2-headline-letter-spacing);
+  --typography-h2-headline-line-height: var(--text-styles-h2-headline-line-height);
+  --typography-h2-headline-font-style: var(--text-styles-h2-headline-font-style);
+
+  --typography-paragraph-font-family: var(--text-styles-paragraph-font-family);
+  --typography-paragraph-font-weight: var(--text-styles-paragraph-font-weight);
+  --typography-paragraph-font-size: var(--text-styles-paragraph-font-size);
+  --typography-paragraph-letter-spacing: var(--text-styles-paragraph-letter-spacing);
+  --typography-paragraph-line-height: var(--text-styles-paragraph-line-height);
+  --typography-paragraph-font-style: var(--text-styles-paragraph-font-style);
+
+  /* Dimensions */
+  --dimensions-radius: var(--dimensions-radius);
+  --dimensions-spacing-content-1: var(--dimensions-spacing-content-1);
+  --dimensions-spacing-content-2: var(--dimensions-spacing-content-2);
+  --dimensions-stroke-size: var(--dimensions-stroke-size);
+}

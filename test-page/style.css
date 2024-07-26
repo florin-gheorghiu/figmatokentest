@@ -75,3 +75,8 @@ p {
 p:last-child {
   margin-bottom: 0;
 }
+
+.image svg {
+  width: 100%;
+  height: 100%;
+}

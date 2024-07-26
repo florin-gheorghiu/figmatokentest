@@ -1,13 +1,13 @@
 {
-    "source": ["input/tokensbrucke-htmlpagetest.json"],
-    "platforms": {
-      "css": {
-        "transformGroup": "css",
-        "buildPath": "output/css/",
-        "files": [{
-          "destination": "output/css/styleguide.css",
-          "format": "css"
-        }]
-      }
+  "source": ["input/tokensbrucke-htmlpagetest.json"],
+  "platforms": {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "output/css/",
+      "files": [{
+        "destination": "styleguide.css",
+        "format": "css/variables"
+      }]
     }
   }
+}

@@ -68,7 +68,7 @@
   "colors": {
     "headline-backgroud": {
       "type": "color",
-      "value": "rgb(254, 183, 0)",
+      "value": "#feb700",
       "description": "",
       "$extensions": {
         "mode": {},
@@ -84,7 +84,7 @@
     },
     "branding-colour": {
       "type": "color",
-      "value": "rgb(113, 178, 255)",
+      "value": "#71b2ff",
       "description": "",
       "$extensions": {
         "mode": {},
@@ -100,7 +100,7 @@
     },
     "card-stroke": {
       "type": "color",
-      "value": "rgb(3, 160, 210)",
+      "value": "#03a0d2",
       "description": "",
       "$extensions": {
         "mode": {},
@@ -116,7 +116,7 @@
     },
     "headline-colour": {
       "type": "color",
-      "value": "rgb(78, 78, 78)",
+      "value": "#4e4e4e",
       "description": "",
       "$extensions": {
         "mode": {},
@@ -530,13 +530,13 @@
   "$extensions": {
     "tokens-bruecke-meta": {
       "useDTCGKeys": false,
-      "colorMode": "rgba-css",
+      "colorMode": "hex",
       "variableCollections": [
         "dimensions",
         "colors",
         "text-styles"
       ],
-      "createdAt": "2024-08-01T17:18:18.973Z"
+      "createdAt": "2024-08-01T17:23:40.051Z"
     }
   }
 }

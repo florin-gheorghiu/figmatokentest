@@ -11,32 +11,46 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
 
-    - name: Debug - List directories
+    - name: Debug - List directories and file contents
       run: |
-        echo "Current directory contents:"
-        ls -R
-
-    - name: Copy CSS file
-      run: |
-        mkdir -p test-page
-        cp output/css/tokensbrucke-htmlpagetest-variables.css test-page/ || echo "Copy failed"
-        echo "Contents of test-page directory:"
-        ls -l test-page
-
-    - name: Debug - Show file contents
-      run: |
+        echo "Current directory structure:"
+        tree
+        echo "Contents of output/css directory:"
+        ls -l output/css/
         echo "Contents of source file:"
         cat output/css/tokensbrucke-htmlpagetest-variables.css
+
+    - name: Ensure test-page directory exists
+      run: mkdir -p test-page
+
+    - name: Force copy CSS file
+      run: |
+        cp -f output/css/tokensbrucke-htmlpagetest-variables.css test-page/tokensbrucke-htmlpagetest-variables.css
+        echo "Force copy completed"
+        echo "Contents of test-page directory:"
+        ls -l test-page
         echo "Contents of destination file:"
         cat test-page/tokensbrucke-htmlpagetest-variables.css
 
-    - name: Commit changes
+    - name: Compare source and destination files
+      run: |
+        echo "Comparing files:"
+        diff output/css/tokensbrucke-htmlpagetest-variables.css test-page/tokensbrucke-htmlpagetest-variables.css || echo "Files are different"
+
+    - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add -f test-page/tokensbrucke-htmlpagetest-variables.css
         git status
         git diff --staged
-        git commit -m "Sync tokensbrucke-htmlpagetest-variables.css to test-page directory" || echo "No changes to commit"
+        git commit -m "Sync tokensbrucke-htmlpagetest-variables.css to test-page directory (forced update)" || echo "No changes to commit"
         git push || echo "No changes to push"
+
+    - name: Final check
+      run: |
+        echo "Final contents of test-page/tokensbrucke-htmlpagetest-variables.css:"
+        cat test-page/tokensbrucke-htmlpagetest-variables.css

@@ -4,7 +4,8 @@ on:
   push:
     branches:
       - main
-
+    paths:
+      - 'output/css/tokensbrucke-htmlpagetest-variables.css'
 jobs:
   sync-css:
     runs-on: ubuntu-latest

@@ -16,10 +16,19 @@ jobs:
       with:
         fetch-depth: 0
 
+    - name: Debug - List files
+      run: |
+        echo "Contents of output/css directory:"
+        ls -l output/css/
+        echo "Contents of tokensbrucke-htmlpagetest-variables.css:"
+        cat output/css/tokensbrucke-htmlpagetest-variables.css
+
     - name: Copy CSS file
       run: |
         mkdir -p test-page
         cp output/css/tokensbrucke-htmlpagetest-variables.css test-page/
+        echo "Contents of copied file:"
+        cat test-page/tokensbrucke-htmlpagetest-variables.css
 
     - name: Commit changes
       run: |
@@ -27,4 +36,10 @@ jobs:
         git config --local user.name "GitHub Action"
         git add test-page/tokensbrucke-htmlpagetest-variables.css
         git status
+        git diff --staged
         git diff --staged --quiet || (git commit -m "Sync tokensbrucke-htmlpagetest-variables.css to test-page directory" && git push)
+
+    - name: Debug - Final check
+      run: |
+        echo "Final contents of test-page/tokensbrucke-htmlpagetest-variables.css:"
+        cat test-page/tokensbrucke-htmlpagetest-variables.css
